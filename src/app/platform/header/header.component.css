@@ -1,0 +1,132 @@
+.header{    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.07);
+    height: 20vh;
+    transition: 0.5s;
+}
+/* Seccion de usuario en el header */
+    .user-container-header{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    
+
+    }
+    /* Seccion de la imagen del usuario en el header */
+        .image-cont-user-header{
+            width: 66.6%;
+            display: flex;
+            justify-content: center;
+            padding: 1em;
+            transition: 0.5s;
+        }
+        .img-user-header{
+            width: 80px;
+            object-fit: contain;
+            transition: 0.5s;
+        }
+    /* Seccion del tagname del usuario en el header */
+        .username-cont-user-header{
+            padding: 1em 1em 1em 0em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: 0.5s;
+        }
+        .name-user-header{
+            font-size: var(--font-size--medium);
+            transition: 1s;
+        }
+        .username-user-header{
+            display: block;
+            font-size: var(--font-size--small);
+            color: var(--inactive-color);
+        }
+
+    /* Seccion de las alertas en el header */
+    .alerts-panel-header{
+        width:  80%;
+        padding: 1em;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0,0.05);
+    }
+
+/* Boton de contraer y abrir header */
+.viwer-yn-header{
+    padding: 0;
+    margin: -15px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 0.5s ease-out;
+    color: var(--inactive-color);
+    cursor: pointer;
+}
+.viwer-yn-header:hover{
+    color: var(--theme-color);
+}
+.fa-solid {
+    font-size: 30px;
+    
+}
+/* Metodo cerrado */
+
+.header.peque{
+    height: 10vh;
+    transition: 0.5s;
+} 
+/* Seccion de usuario en el header */
+    /* Seccion de la imagen del usuario en el header */
+        .peque .image-cont-user-header{
+            min-width: 40px;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            padding: 1em 1em 1em 1em ;
+            transition: 0.5s;
+        }
+        .peque .img-user-header{
+            width: 30px;
+            transition: 1s;
+        }
+    /* Seccion del tagname del usuario en el header */
+        .peque .username-cont-user-header{
+            
+            transition: 1s;
+        }
+        .peque .name-user-header{
+            font-size: var(--font-size--small);
+            transition: 1s;
+        }
+        .peque .username-user-header{
+            display: none;
+            transition: 1s;
+        }
+
+    /* Seccion de las alertas en el header */
+    .alerts-panel-header{
+    }
+
+/* Boton de contraer y abrir header */
+.viwer-yn-header{
+    padding: 0;
+    margin: -15px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 0.5s ease-out;
+    color: var(--inactive-color);
+    cursor: pointer;
+}
+.viwer-yn-header:hover{
+    color: var(--theme-color);
+}
+.fa-solid {
+    font-size: 30px;
+    
+}

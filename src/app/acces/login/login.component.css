@@ -1,0 +1,14 @@
+/* contenedor principal */
+#contfull  {
+    display: block;
+}
+
+
+.container-fluid{
+    display: block;
+    width: 50%;
+}
+h1{
+    font-size: var(--font-size--large);
+    text-align: center;
+}

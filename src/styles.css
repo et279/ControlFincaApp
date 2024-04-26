@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --font-family: "Poppins", sans-serif;
+    --main-bg-gradient: linear-gradient(to left, #f6d365 0%, #fda085 100%);
+    --font-size--small: 13px;
+    --font-size--medium: 20px;
+    --font-size--large: 36px;
+    --font-size--x-large: 42px;
+    --spacing--20: 0.44rem;
+    --spacing--30: 0.67rem;
+    --theme-bg-color: rgba(16 18 27 / 45%);
+    --theme-color: #f9fafb;    
+    --inactive-color: rgb(255 255 255 / 60%);
+}
+
+/* configuracion general para el contenedor principal del programa */
+body{
+    color: var(--theme-color);
+    background-image: var(--main-bg-gradient);
+    display: block;
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}

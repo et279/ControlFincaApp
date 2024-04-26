@@ -1,0 +1,33 @@
+<!-- header -->
+<div class="header" id="contHeader">
+    <!-- seccion del usuario en el header -->
+    <div class="user-container-header">
+        <div class="image-cont-user-header">
+            <img class="img-user-header" src="../../../assets/user-image.png" alt="user">
+        </div>
+        <div class="username-cont-user-header">
+            <span class="name-user-header">
+                Fabian Beltran
+            </span>
+            <span class="username-user-header">
+                &#64;fabianbelt
+            </span>
+        </div>
+    </div>
+    <!-- seccion de alertas en el header -->
+    <div class="alerts-panel-header">
+        alerta
+    </div>
+</div>
+<!-- boton ocultar y mostrar header -->
+<div class="viwer-yn-header">
+   <a (click)="show = !show; YNHeader() " class="ir-arriba" id="ynHeaderButon">
+        <span class="fa-stack">
+            @if (show) {
+                <i class="fa-solid fa-circle-up" ></i>
+            } @else{
+                <i #elseBlock class="fa-solid fa-circle-down"></i>
+            }
+        </span>
+      </a>    
+</div>
